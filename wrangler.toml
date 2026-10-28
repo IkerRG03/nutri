@@ -1,0 +1,10 @@
+# Configuración para Cloudflare (se usa al conectar este repositorio desde GitHub)
+name = "nutri"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nutri"
+# Pega aquí el "Database ID" de tu base D1 (Cloudflare ▸ Storage & Databases ▸ D1 ▸ nutri)
+database_id = "00000000-0000-0000-0000-000000000000"
